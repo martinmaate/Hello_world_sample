@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Hola</string>
+    <string name="try1">tratar</string>
+    <string name="Power">poder</string>
+    <string name="Three">Tres</string>
+    <string name="Four">cuatro</string>
+
+</resources>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hello</string>
+    <string name="try1">try</string>
+    <string name="Power">Power</string>
+    <string name="Three">Three</string>
+    <string name="Four">Four</string>
+
 </resources>
