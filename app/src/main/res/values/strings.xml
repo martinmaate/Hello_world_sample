@@ -4,5 +4,8 @@
     <string name="Power">Power</string>
     <string name="Three">Three</string>
     <string name="Four">Four</string>
+    <string name="action_settings">Settings</string>
+
+
 
 </resources>

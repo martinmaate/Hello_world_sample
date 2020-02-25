@@ -7,5 +7,6 @@
     <string name="Power">poder</string>
     <string name="Three">Tres</string>
     <string name="Four">cuatro</string>
+    <string name="action_settings">ajustes</string>
 
 </resources>

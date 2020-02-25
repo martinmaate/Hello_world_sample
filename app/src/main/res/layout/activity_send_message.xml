@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter a message here"
         android:text="Hello World!"
-        android:textAllignment="center"
+
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/sendbutton"
         app:layout_constraintEnd_toEndOf="parent"
