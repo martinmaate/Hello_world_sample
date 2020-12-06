@@ -14,16 +14,29 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.logging.Handler;
 
 import static android.content.Context.ALARM_SERVICE;
 
 public class MainActivity extends AppCompatActivity {
 
-    // hello world sample application by
+    // Class Project Build Up App by
     //MAATE MARTIN THAWITE  - 2017/BIT/094/PS
+
+    ImageView imageView;
+
+    Handler handler;
+
+    ProgressBar progressBar;
+
+    TextView magical;
+
+    Boolean progressStatus = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             String to[] = {"maatemartin@gmail.com", "mugisha@gmail.com", "eddie@gmail.com"};
             intent2.putExtra(Intent.EXTRA_EMAIL, to);
             intent2.putExtra(Intent.EXTRA_SUBJECT, "Emergency");
-            intent2.putExtra(Intent.EXTRA_TEXT, "Be ware that Coronavirus is pandemic!");
+            intent2.putExtra(Intent.EXTRA_TEXT, "Be ware that Coronavirus is real!");
             
             startActivity(intent2);
             return true;
@@ -102,6 +115,14 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    // Handler
+
+
+
+
+
 }
 
 
