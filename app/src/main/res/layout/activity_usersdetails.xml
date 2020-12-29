@@ -5,49 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ExternalStorage">
+    tools:context=".usersdetails">
 
     <TextView
-        android:id="@+id/fstTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Name"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
-        android:text="External Storage"
-        android:textSize="30dp"/>
-
-    <TextView
-        android:id="@+id/gd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
-        android:text="UserName" />
-
+        android:layout_marginTop="100dp"/>
     <EditText
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:ems="10"/>
-    <TextView
-        android:id="@+id/secTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_marginLeft="100dp" />
-    <EditText
-        android:id="@+id/txtPwd"
-        android:inputType="textPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:ems="10" />
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onClickAddDetails"
         android:layout_marginLeft="100dp"
-        android:text="Save" />
+        android:text="Add User"/>
+
+    <Button
+        android:id="@+id/btnRetrieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickShowDetails"
+        android:layout_marginLeft="100dp"
+        android:text="Show Users"/>
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:clickable="false"
+        android:ems="16"/>
 
 </LinearLayout>
